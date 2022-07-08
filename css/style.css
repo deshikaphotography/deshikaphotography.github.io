@@ -588,7 +588,7 @@
 ------------------------------------------------ */
 
 	#header{
-		background: #181818;
+		background: transparent;
 		padding: 8px 30px 17px;
 		position: fixed;
 		z-index: 103;
@@ -602,7 +602,7 @@
 	}
 
 	#header.filled{
-		background: #181818;
+		background: transparent;
 	}
 
 	#header::after{
@@ -629,7 +629,7 @@
 		right: 0;
 		bottom: 0;
 		left: 0;
-		background: #181818;
+		background: transparent;
 		opacity: 0;
 
 		-webkit-transition: -webkit-transform .4s ease, opacity .4s ease;
@@ -6068,7 +6068,7 @@
 		}
 
 		#header.transparent{
-			background: #181818;
+			background: transparent;
 		}
 
 		#toggle_menu{
