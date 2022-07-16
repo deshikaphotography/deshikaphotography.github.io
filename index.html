@@ -1,582 +1,275 @@
-﻿<!DOCTYPE html>
+﻿<!DOCTYPE HTML>
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="A gorgeous looking onepage site template suitable for photographers, visual artists, digital studios, freelancers that would like to showcase their portfolio beautifully.">
-  <meta name="keywords" content="bootstrap 5, one page, responsive, photography, minimal, modern, gulp, sass">
-  <meta name="author" content="elemis">
-  <title>Deshika Photography</title>
-  <link rel="shortcut icon" href="assets/img/favicon.ico">
-  <link rel="stylesheet" href="assets/css/plugins.css">
-  <link rel="stylesheet" href="assets/css/style.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Deshika Photography</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/flexslider.css">
+    <link rel="stylesheet" href="css/fancybox.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- FOR IE9 below -->
+    <!--[if lt IE 9]>
+        <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="../../../../gtag/js?id=UA-144098545-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-144098545-1');
+    </script>
 </head>
 
-<body class="onepage" data-bs-spy="scroll" data-bs-target=".navbar-collapse .navbar-nav">
-  <div class="content-wrapper">
-    <header class="position-absolute top-0 start-0 w-100">
-      <nav class="navbar navbar-expand-lg classic transparent ">
-        <div class="container flex-lg-row flex-nowrap align-items-center">
-          <div class="navbar-brand w-100">
-            <a href="index.html">
-              <img src="assets/img/logo.png" srcset="assets/img/logo%402x.png 2x" alt="">
-            </a>
-          </div>
-          <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
-            <div class="offcanvas-header d-lg-none">
-              <a href="index.html"><img src="assets/img/logo.png" srcset="assets/img/logo%402x.png 2x" alt=""></a>
-              <button type="button" class="btn btn-circle btn-white btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body d-flex flex-column h-100">
-              <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link scroll active" href="#home">Home</a></li>
-                <li class="nav-item"><a class="nav-link scroll" href="#about">About</a></li>
-                <li class="nav-item"><a class="nav-link scroll" href="#portfolio">Portfolio</a></li>
-                <li class="nav-item"><a class="nav-link scroll" href="#gallery">Gallery</a></li>
-                <li class="nav-item"><a class="nav-link scroll" href="#services">Services</a></li>
-                <li class="nav-item"><a class="nav-link scroll" href="#contact">Contact</a></li>
-              <!-- /.navbar-nav -->
-              <div class="d-lg-none mt-auto pt-6 pb-6 order-4">
-                <a href="mailto:deshikajayantha@gmail.com" class="link-body">deshikajayantha@gmail.com</a>
-                <br> (94) 78 670 6100 <br>
-                <nav class="nav social mt-4">
-                  <a href="#" class="btn btn-circle btn-white btn-facebook-f btn-sm"><i class="uil uil-facebook-f"></i></a>
-                  <a href="https://www.instagram.com/__deshika__" class="btn btn-circle btn-white btn-instagram btn-sm"><i class="uil uil-instagram"></i></a>
-                </nav>
-                <!-- /.social -->
-              </div>
-              <!-- /offcanvas-nav-other -->
-            </div>
-            <!-- /.offcanvas-body -->
-          </div>
-          <!-- /.navbar-collapse -->
-          <div class="navbar-other w-100 d-flex ms-auto">
-            <ul class="navbar-nav flex-row align-items-center ms-auto">
-              <li class="nav-item">
-                <nav class="nav social justify-content-end text-end">
-                  <a href="#" class="btn btn-circle btn-white btn-facebook-f btn-sm"><i class="uil uil-facebook-f"></i></a>
-                  <a href="https://www.instagram.com/__deshika__" class="btn btn-circle btn-white btn-instagram btn-sm"><i class="uil uil-instagram"></i></a>
-                </nav>
-                <!-- /.social -->
-              </li>
-              <li class="nav-item d-lg-none">
-                <button class="hamburger offcanvas-nav-btn"><span></span></button>
-              </li>
-            </ul>
-            <!-- /.navbar-nav -->
-          </div>
-          <!-- /.navbar-other -->
+<body>
+    <!-- Preloader -->
+    <div class="preloader-bg"></div>
+    <div id="preloader">
+        <div id="preloader-status">
+            <div class="preloader-position loader"> <span></span> </div>
         </div>
-        <!-- /.container -->
-      </nav>
-      <!-- /.navbar -->
-    </header>
-    <section id="home">
-      <div class="container vh-100 d-flex flex-column align-items-center justify-content-center" data-cues="zoomIn" data-group="hero">
-        <h2 class="fs-16 ls-lg text-uppercase mb-5">Nature & Landscape Photographer</h2>
-        <h1 class="display-1 mb-8">Deshika Jayantha</h1>
-        <span><a href="#portfolio" class="btn btn-lg btn-white scroll">View My Work</a></span>
-      </div>
-    </section>
-    <section id="about">
-      <div class="container pt-7 pb-15">
-        <div class="card">
-          <div class="card-body">
-            <div class="row gx-md-8 gx-xl-10 gy-8">
-              <div class="col-lg-5">
-                <figure class="rounded"><img class="img-fluid" src="assets/img/photos/about.jpg" srcset="assets/img/photos/about%402x.jpg 2x" alt=""></figure>
-              </div>
-              <!-- /column -->
-              <div class="col-lg-7">
-                <h2 class="mb-3">Life is an adventure. Capture every minute.</h2>
-                <p class="lead mb-7">I'm Deshika, a Nature and Landscape photographer. My passion is taking photos of the most stunning places around the world.</p>
-                <div class="row">
-                  <div class="col-lg-6">
-                    <h3 class="h4 mb-3">A Little About Me</h3>
-                    <p>
-                      <span class="dropcap">Hi</span> My name is Deshika Jayantha. I'm from Srilanka. I am a graphic designer by profession. I have been fond of photography since childhood. I got into this art from a mobile phone as a hobby. My hope is to become a world famous photographer
-                    </p>
-                  </div>
-                  <!-- /column -->
-                  <div class="col-lg-6">
-                    <h3 class="h4 mb-3">My Equipment</h3>
-                    <ul class="unordered-list bullet-primary">
-                      <li>Canon Eos 5D Mark IV 24-105mm</li>
-                      <li>Manfrotto Compact Tripod</li>
-                      <li>DJI Ronin MX 3-Axis Gimbal Stabilizer</li>
-                      <li>Wondlan Wer01 Slider Time Lapse</li>
-                      <li>Canon EF100-400MM Lens</li>
-                      <li>Nikon D5 24-70mm F2.8</li>
-                      <li>Nikon Af-S 24Mm F/1.4G Ed Lens</li>
-                      <li>Wondlan Sniper Sn 2.1 Wf Wireless Dslr</li>
-                    </ul>
-                  </div>
-                  <!-- /column -->
-                </div>
-                <!-- /.row -->
-              </div>
-              <!-- /column -->
-            </div>
-            <!-- /.row -->
-          </div>
-          <!--/.card-body -->
-        </div>
-        <!--/.card -->
-      </div>
-    </section>
-    <section id="portfolio">
-      <div class="container pt-7 pb-15">
-        <div class="card">
-          <div class="card-body">
-            <div class="row">
-              <div class="col-xl-7 mx-auto">
-                <h2 class="mb-3 text-center">My Portfolio</h2>
-                <p class="lead mb-10 text-center px-xxl-12">I absolutely love shooting undiscovered places around the world. Someday maybe outside...</p>
-              </div>
-              <!-- /column -->
-            </div>
-            <!-- /.row -->
-            <div class="grid grid-view">
-              <div class="isotope-filter filter mb-8 text-center">
-                <ul>
-                  <li><a class="filter-item active" data-filter="*">All</a></li>
-                  <li><a class="filter-item" data-filter=".foods">Foods</a></li>
-                  <li><a class="filter-item" data-filter=".drinks">Drinks</a></li>
-                  <li><a class="filter-item" data-filter=".events">Events</a></li>
-                  <li><a class="filter-item" data-filter=".pastries">Pastries</a></li>
-                </ul>
-              </div>
-              <div class="row gx-md-6 gy-6 isotope">
-                <div class="item col-md-6 col-xl-4 drinks events">
-                  <figure class="overlay rounded"><a href="assets/img/photos/p1-full.jpg" data-glightbox="title: Pellentesque Bibendum Vestibulum; description: Praesent commodo cursus magna, vel scelerisque nisl consectetur." data-gallery="g-portfolio"> <img src="assets/img/photos/p1.jpg" srcset="assets/img/photos/p1%402x.jpg 2x" alt=""></a>
-                    <figcaption><i class="si-photo_aperture"></i></figcaption>
-                  </figure>
-                </div>
-                <!-- /.item -->
-                <div class="item col-md-6 col-xl-4 events">
-                  <figure class="overlay rounded"><a href="assets/img/photos/p2-full.jpg" data-glightbox="title: Porta Pellentesque Sem" data-gallery="g-portfolio"> <img src="assets/img/photos/p2.jpg" srcset="assets/img/photos/p2%402x.jpg 2x" alt=""></a>
-                    <figcaption><i class="si-photo_aperture"></i></figcaption>
-                  </figure>
-                </div>
-                <!-- /.item -->
-                <div class="item col-md-6 col-xl-4 drinks foods">
-                  <figure class="overlay rounded"><a href="assets/img/photos/p3-full.jpg" data-glightbox="" data-gallery="g-portfolio"> <img src="assets/img/photos/p3.jpg" srcset="assets/img/photos/p3%402x.jpg 2x" alt=""></a>
-                    <figcaption><i class="si-photo_aperture"></i></figcaption>
-                  </figure>
-                </div>
-                <!-- /.item -->
-                <div class="item col-md-6 col-xl-4 events">
-                  <figure class="overlay rounded"><a href="assets/img/photos/p4-full.jpg" data-glightbox="" data-gallery="g-portfolio"> <img src="assets/img/photos/p4.jpg" srcset="assets/img/photos/p4%402x.jpg 2x" alt=""></a>
-                    <figcaption><i class="si-photo_aperture"></i></figcaption>
-                  </figure>
-                </div>
-                <!-- /.item -->
-                <div class="item col-md-6 col-xl-4 pastries events">
-                  <figure class="overlay rounded"><a href="assets/img/photos/p5-full.jpg" data-glightbox="" data-gallery="g-portfolio"> <img src="assets/img/photos/p5.jpg" srcset="assets/img/photos/p5%402x.jpg 2x" alt=""></a>
-                    <figcaption><i class="si-photo_aperture"></i></figcaption>
-                  </figure>
-                </div>
-                <!-- /.item -->
-                <div class="item col-md-6 col-xl-4 foods">
-                  <figure class="overlay rounded"><a href="assets/img/photos/p6-full.jpg" data-glightbox="" data-gallery="g-portfolio"> <img src="assets/img/photos/p6.jpg" srcset="assets/img/photos/p6%402x.jpg 2x" alt=""></a>
-                    <figcaption><i class="si-photo_aperture"></i></figcaption>
-                  </figure>
-                </div>
-                <!-- /.item -->
-                <div class="item col-md-6 col-xl-4 foods drinks">
-                  <figure class="overlay rounded"><a href="assets/img/photos/p7-full.jpg" data-glightbox="" data-gallery="g-portfolio"> <img src="assets/img/photos/p7.jpg" srcset="assets/img/photos/p7%402x.jpg 2x" alt=""></a>
-                    <figcaption><i class="si-photo_aperture"></i></figcaption>
-                  </figure>
-                </div>
-                <!-- /.item -->
-                <div class="item col-md-6 col-xl-4 pastries">
-                  <figure class="overlay rounded"><a href="assets/img/photos/p8-full.jpg" data-glightbox="" data-gallery="g-portfolio"> <img src="assets/img/photos/p8.jpg" srcset="assets/img/photos/p8%402x.jpg 2x" alt=""></a>
-                    <figcaption><i class="si-photo_aperture"></i></figcaption>
-                  </figure>
-                </div>
-                <!-- /.item -->
-                <div class="item col-md-6 col-xl-4 events">
-                  <figure class="overlay rounded"><a href="assets/img/photos/p9-full.jpg" data-glightbox="" data-gallery="g-portfolio"> <img src="assets/img/photos/p9.jpg" srcset="assets/img/photos/p9%402x.jpg 2x" alt=""></a>
-                    <figcaption><i class="si-photo_aperture"></i></figcaption>
-                  </figure>
-                </div>
-                <!-- /.item -->
-                <div class="item col-md-6 col-xl-4 foods">
-                  <figure class="overlay rounded"><a href="assets/img/photos/p10-full.jpg" data-glightbox="" data-gallery="g-portfolio"> <img src="assets/img/photos/p10.jpg" srcset="assets/img/photos/p10%402x.jpg 2x" alt=""></a>
-                    <figcaption><i class="si-photo_aperture"></i></figcaption>
-                  </figure>
-                </div>
-                <!-- /.item -->
-                <div class="item col-md-6 col-xl-4 drinks">
-                  <figure class="overlay rounded"><a href="assets/img/photos/p11-full.jpg" data-glightbox="" data-gallery="g-portfolio"> <img src="assets/img/photos/p11.jpg" srcset="assets/img/photos/p11%402x.jpg 2x" alt=""></a>
-                    <figcaption><i class="si-photo_aperture"></i></figcaption>
-                  </figure>
-                </div>
-                <!-- /.item -->
-                <div class="item col-md-6 col-xl-4 drinks">
-                  <figure class="overlay rounded"><a href="assets/img/photos/p12-full.jpg" data-glightbox="" data-gallery="g-portfolio"> <img src="assets/img/photos/p12.jpg" srcset="assets/img/photos/p12%402x.jpg 2x" alt=""></a>
-                    <figcaption><i class="si-photo_aperture"></i></figcaption>
-                  </figure>
-                </div>
-                <!-- /.item -->
-                <div class="item col-md-6 col-xl-4 drinks events">
-                  <figure class="overlay rounded"><a href="https://www.youtube.com/watch?v=rETpXdTbAzo" data-glightbox="" data-gallery="g-portfolio"> <img src="assets/img/photos/p13.jpg" srcset="assets/img/photos/p13%402x.jpg 2x" alt=""></a>
-                    <figcaption><i class="si-photo_aperture"></i></figcaption>
-                  </figure>
-                </div>
-                <!-- /.item -->
-              </div>
-              <!-- /.row -->
-            </div>
-            <!-- /.grid -->
-          </div>
-          <!--/.card-body -->
-        </div>
-        <!--/.card -->
-      </div>
-    </section>
-    <section id="gallery">
-      <div class="container pt-7 pb-15">
-        <div class="card">
-          <div class="card-body">
-            <h2 class="mb-3 text-center">My Gallery</h2>
-            <p class="lead mb-10 text-center px-xl-12">Here are some of the best places around the world.</p>
-            <div class="grid grid-view">
-              <div class="row gx-md-6 gy-6 isotope">
-                <div class="item col-md-6 col-xl-4">
-                  <figure class="overlay rounded">
-                    <a href="assets/img/photos/an1.jpg" data-glightbox="title: Antarctica" data-gallery="g-antarctica">
-                      <img src="assets/img/photos/an-th.jpg" srcset="assets/img/photos/an-th%402x.jpg 2x" alt="">
-                    </a>
-                    <figcaption>
-                      <h4 class="from-top h6 mb-0">Antarctica</h4>
-                    </figcaption>
-                  </figure>
-                  <ul class="d-none">
-                    <li><a href="assets/img/photos/an2.jpg" data-glightbox="title: Antarctica" data-gallery="g-antarctica"></a></li>
-                    <li><a href="assets/img/photos/an3.jpg" data-glightbox="title: Antarctica" data-gallery="g-antarctica"></a></li>
-                    <li><a href="assets/img/photos/an4.jpg" data-glightbox="title: Antarctica" data-gallery="g-antarctica"></a></li>
-                    <li><a href="assets/img/photos/an5.jpg" data-glightbox="title: Antarctica" data-gallery="g-antarctica"></a></li>
-                    <li><a href="assets/img/photos/an6.jpg" data-glightbox="title: Antarctica" data-gallery="g-antarctica"></a></li>
-                  </ul>
-                </div>
-                <!-- /.item -->
-                <div class="item col-md-6 col-xl-4">
-                  <figure class="overlay rounded">
-                    <a href="assets/img/photos/au1.jpg" data-glightbox="title: Australia" data-gallery="g-australia">
-                      <img src="assets/img/photos/au-th.jpg" srcset="assets/img/photos/au-th%402x.jpg 2x" alt="">
-                    </a>
-                    <figcaption>
-                      <h4 class="from-top h6 mb-0">Australia</h4>
-                    </figcaption>
-                  </figure>
-                  <ul class="d-none">
-                    <li><a href="assets/img/photos/au2.jpg" data-glightbox="title: Australia" data-gallery="g-australia"></a></li>
-                    <li><a href="assets/img/photos/au3.jpg" data-glightbox="title: Australia" data-gallery="g-australia"></a></li>
-                    <li><a href="assets/img/photos/au4.jpg" data-glightbox="title: Australia" data-gallery="g-australia"></a></li>
-                    <li><a href="assets/img/photos/au5.jpg" data-glightbox="title: Australia" data-gallery="g-australia"></a></li>
-                    <li><a href="assets/img/photos/au6.jpg" data-glightbox="title: Australia" data-gallery="g-australia"></a></li>
-                  </ul>
-                </div>
-                <!-- /.item -->
-                <div class="item col-md-6 col-xl-4">
-                  <figure class="overlay rounded">
-                    <a href="assets/img/photos/eg1.jpg" data-glightbox="title: Egypt" data-gallery="g-egypt">
-                      <img src="assets/img/photos/eg-th.jpg" srcset="assets/img/photos/eg-th%402x.jpg 2x" alt="">
-                    </a>
-                    <figcaption>
-                      <h4 class="from-top h6 mb-0">Egypt</h4>
-                    </figcaption>
-                  </figure>
-                  <ul class="d-none">
-                    <li><a href="assets/img/photos/eg2.jpg" data-glightbox="title: Egypt" data-gallery="g-egypt"></a></li>
-                    <li><a href="assets/img/photos/eg3.jpg" data-glightbox="title: Egypt" data-gallery="g-egypt"></a></li>
-                    <li><a href="assets/img/photos/eg4.jpg" data-glightbox="title: Egypt" data-gallery="g-egypt"></a></li>
-                    <li><a href="assets/img/photos/eg5.jpg" data-glightbox="title: Egypt" data-gallery="g-egypt"></a></li>
-                    <li><a href="assets/img/photos/eg6.jpg" data-glightbox="title: Egypt" data-gallery="g-egypt"></a></li>
-                  </ul>
-                </div>
-                <!-- /.item -->
-                <div class="item col-md-6 col-xl-4">
-                  <figure class="overlay rounded">
-                    <a href="assets/img/photos/sc1.jpg" data-glightbox="title: Scandinavia" data-gallery="g-scandinavia">
-                      <img src="assets/img/photos/sc-th.jpg" srcset="assets/img/photos/sc-th%402x.jpg 2x" alt="">
-                    </a>
-                    <figcaption>
-                      <h4 class="from-top h6 mb-0">Scandinavia</h4>
-                    </figcaption>
-                  </figure>
-                  <ul class="d-none">
-                    <li><a href="assets/img/photos/sc2.jpg" data-glightbox="title: Scandinavia" data-gallery="g-scandinavia"></a></li>
-                    <li><a href="assets/img/photos/sc3.jpg" data-glightbox="title: Scandinavia" data-gallery="g-scandinavia"></a></li>
-                    <li><a href="assets/img/photos/sc4.jpg" data-glightbox="title: Scandinavia" data-gallery="g-scandinavia"></a></li>
-                    <li><a href="assets/img/photos/sc5.jpg" data-glightbox="title: Scandinavia" data-gallery="g-scandinavia"></a></li>
-                    <li><a href="assets/img/photos/sc6.jpg" data-glightbox="title: Scandinavia" data-gallery="g-scandinavia"></a></li>
-                  </ul>
-                </div>
-                <!-- /.item -->
-                <div class="item col-md-6 col-xl-4">
-                  <figure class="overlay rounded">
-                    <a href="assets/img/photos/aa1.jpg" data-glightbox="title: Anatolia" data-gallery="g-anatolia">
-                      <img src="assets/img/photos/aa-th.jpg" srcset="assets/img/photos/aa-th%402x.jpg 2x" alt="">
-                    </a>
-                    <figcaption>
-                      <h4 class="from-top h6 mb-0">Anatolia</h4>
-                    </figcaption>
-                  </figure>
-                  <ul class="d-none">
-                    <li><a href="assets/img/photos/aa2.jpg" data-glightbox="title: Anatolia" data-gallery="g-anatolia"></a></li>
-                    <li><a href="assets/img/photos/aa3.jpg" data-glightbox="title: Anatolia" data-gallery="g-anatolia"></a></li>
-                    <li><a href="assets/img/photos/aa4.jpg" data-glightbox="title: Anatolia" data-gallery="g-anatolia"></a></li>
-                    <li><a href="assets/img/photos/aa5.jpg" data-glightbox="title: Anatolia" data-gallery="g-anatolia"></a></li>
-                    <li><a href="assets/img/photos/aa6.jpg" data-glightbox="title: Anatolia" data-gallery="g-anatolia"></a></li>
-                  </ul>
-                </div>
-                <!-- /.item -->
-                <div class="item col-md-6 col-xl-4">
-                  <figure class="overlay rounded">
-                    <a href="assets/img/photos/br1.jpg" data-glightbox="title: Brazil" data-gallery="g-brazil">
-                      <img src="assets/img/photos/br-th.jpg" srcset="assets/img/photos/br-th%402x.jpg 2x" alt="">
-                    </a>
-                    <figcaption>
-                      <h4 class="from-top h6 mb-0">Brazil</h4>
-                    </figcaption>
-                  </figure>
-                  <ul class="d-none">
-                    <li><a href="assets/img/photos/br2.jpg" data-glightbox="title: Brazil" data-gallery="g-brazil"></a></li>
-                    <li><a href="assets/img/photos/br3.jpg" data-glightbox="title: Brazil" data-gallery="g-brazil"></a></li>
-                    <li><a href="assets/img/photos/br4.jpg" data-glightbox="title: Brazil" data-gallery="g-brazil"></a></li>
-                    <li><a href="assets/img/photos/br5.jpg" data-glightbox="title: Brazil" data-gallery="g-brazil"></a></li>
-                    <li><a href="assets/img/photos/br6.jpg" data-glightbox="title: Brazil" data-gallery="g-brazil"></a></li>
-                  </ul>
-                </div>
-                <!-- /.item -->
-              </div>
-              <!-- /.row -->
-            </div>
-            <!-- /.grid -->
-          </div>
-          <!--/.card-body -->
-        </div>
-        <!--/.card -->
-      </div>
-    </section>
-    <section id="services">
-      <div class="container pt-7 pb-15">
-        <div class="card">
-          <div class="card-body">
-            <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
-              <div class="col-lg-6 position-relative order-lg-2">
-                <div class="overlap-grid overlap-grid-2">
-                  <div class="item">
-                    <figure class="rounded shadow"><img src="assets/img/photos/s1.jpg" srcset="assets/img/photos/s1%402x.jpg 2x" alt=""></figure>
-                  </div>
-                  <div class="item">
-                    <figure class="rounded shadow"><img src="assets/img/photos/s2.jpg" srcset="assets/img/photos/s2%402x.jpg 2x" alt=""></figure>
-                  </div>
-                </div>
-              </div>
-              <!--/column -->
-              <div class="col-lg-6">
-                <h2 class="mb-3">My Works</h2>
-                <p class="lead mb-7">I'd like to give you a unique photography experience, capture your products with excellent composition.</p>
-                <div class="d-flex flex-row mb-5">
-                  <div>
-                    <div class="icon fs-44 text-white mt-1 me-5"><i class="si-photo_camera"></i></div>
-                  </div>
-                  <div>
-                    <h3 class="h4 mb-1">Photography</h3>
-                    <p class="mb-0">Capturing moments from today…Creating memories for a lifetime.</p>
-                  </div>
-                </div>
-                <div class="d-flex flex-row mb-5">
-                  <div>
-                    <div class="icon fs-44 text-white mt-1 me-5"><i class="si-photo_magic-tools"></i></div>
-                  </div>
-                  <div>
-                    <h3 class="h4 mb-1">Editing</h3>
-                    <p class="mb-0">Creating a timeless look, coupled with a flawless moment.</p>
-                  </div>
-                </div>
-                <div class="d-flex flex-row">
-                  <div>
-                    <div class="icon fs-44 text-white mt-1 me-5"><i class="si-seo_video-marketing"></i></div>
-                  </div>
-                  <div>
-                    <h3 class="h4 mb-1">Videography</h3>
-                    <p class="mb-0">The picture that you took with your camera is the imagination you want to create with reality.</p>
-                  </div>
-                </div>
-              </div>
-              <!--/column -->
-            </div>
-            <!--/.row -->
-          </div>
-          <!--/.card-body -->
-        </div>
-        <!--/.card -->
-      </div>
-    </section>
-    <section id="contact">
-      <div class="container pt-7 pb-15">
-        <div class="card">
-          <div class="card-body">
-            <h2 class="mb-3">Get In Touch</h2>
-            <p class="lead mb-10">Got any questions? Don't hesitate to get in touch.</p>
-            <div class="row gy-10 gx-lg-8 gx-xl-12">
-              <div class="col-lg-8">
-                <form class="contact-form needs-validation" method="post" action="./assets/php/contact.php" novalidate="">
-                  <div class="messages"></div>
-                  <div class="row gx-4">
-                    <div class="col-md-6">
-                      <div class="form-floating mb-6">
-                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Jane" required="">
-                        <label for="form_name">First Name *</label>
-                        <div class="valid-feedback"> Looks good! </div>
-                        <div class="invalid-feedback"> Please enter your first name. </div>
-                      </div>
-                    </div>
-                    <!-- /column -->
-                    <div class="col-md-6">
-                      <div class="form-floating mb-6">
-                        <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Doe" required="">
-                        <label for="form_lastname">Last Name *</label>
-                        <div class="valid-feedback"> Looks good! </div>
-                        <div class="invalid-feedback"> Please enter your last name. </div>
-                      </div>
-                    </div>
-                    <!-- /column -->
-                    <div class="col-md-6">
-                      <div class="form-floating mb-6">
-                        <input id="form_email" type="email" name="email" class="form-control" placeholder="deshikajayantha@gmail.com" required="">
-                        <label for="form_email">Email *</label>
-                        <div class="valid-feedback"> Looks good! </div>
-                        <div class="invalid-feedback"> Please provide a valid email address. </div>
-                      </div>
-                    </div>
-                    <!-- /column -->
-                    <div class="col-md-6">
-                      <div class="form-select-wrapper mb-6">
-                        <select class="form-select" id="form-select" name="subject-select" required="">
-                          <option selected="" disabled="" value="">Select a subject</option>
-                          <option value="Question">Question</option>
-                          <option value="Pricing">Pricing</option>
-                          <option value="Other">Other</option>
-                        </select>
-                        <div class="valid-feedback"> Looks good! </div>
-                        <div class="invalid-feedback"> Please select a department. </div>
-                      </div>
-                    </div>
-                    <!-- /column -->
-                    <div class="col-12">
-                      <div class="form-floating mb-6">
-                        <textarea id="form_message" name="message" class="form-control" placeholder="Your message" style="height: 150px" required=""></textarea>
-                        <label for="form_message">Message *</label>
-                        <div class="valid-feedback"> Looks good! </div>
-                        <div class="invalid-feedback"> Please enter your messsage. </div>
-                      </div>
-                    </div>
-                    <!-- /column -->
-                    <div class="col-12">
-                      <div class="form-check mb-6">
-                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required="">
-                        <label class="form-check-label" for="invalidCheck"> I agree to <a href="#" class="hover">terms and policy</a>. </label>
-                        <div class="invalid-feedback"> You must agree before submitting. </div>
-                      </div>
-                    </div>
-                    <!-- /column -->
-                    <div class="col-12">
-                      <input type="submit" class="btn btn-white btn-send" value="Send message">
-                    </div>
-                    <!-- /column -->
-                  </div>
-                  <!-- /.row -->
-                </form>
-                <!-- /form -->
-              </div>
-              <!--/column -->
-              <div class="col-lg-4">
-                <div class="d-flex flex-row">
-                  <div>
-                    <div class="icon text-white fs-30 me-5 mt-1"> <i class="si-ecommerce_shop-location"></i> </div>
-                  </div>
-                  <div>
-                    <h5 class="mb-1">Address</h5>
-                    <address>Bandarawela, Sri Lanka</address>
-                  </div>
-                </div>
-                <div class="d-flex flex-row">
-                  <div>
-                    <div class="icon text-white fs-30 me-5 mt-1"> <i class="si-phone_drop-call"></i> </div>
-                  </div>
-                  <div>
-                    <h5 class="mb-1">Phone</h5>
-                    <p>(94) 78 670 6100 <br>(94) 76 866 9961</p>
-                  </div>
-                </div>
-                <div class="d-flex flex-row">
-                  <div>
-                    <div class="icon text-white fs-30 me-5 mt-1"> <i class="si-mail_send-arrow"></i> </div>
-                  </div>
-                  <div>
-                    <h5 class="mb-1">E-mail</h5>
-                    <p class="mb-0"><a href="mailto:deshikajayantha@gmail.com" class="link-body">deshikajayantha@gmail.com</a></p>
-                  </div>
-                </div>
-              </div>
-              <!--/column -->
-            </div>
-            <!--/.row -->
-            <h2 class="mt-10 mb-8 text-center">Follow Me on Instagram</h2>
-            <div class="grid grid-view position-relative mb-10">
-              <div class="position-absolute mt-3" style="top:50%; left: 50%; z-index:2; transform: translate(-50%,-50%);"><a href="https://www.instagram.com/__deshika__" class="btn btn-white"><i class="uil uil-instagram fs-18 me-1"></i> Follow Me</a></div>
-              <div class="row gx-md-6 gy-6 isotope opacity-50">
-                <div class="item col-md-6 col-lg-3">
-                  <figure class="rounded"><img src="assets/img/photos/i1.jpg" srcset="assets/img/photos/i1%402x.jpg 2x" alt=""></figure>
-                </div>
-                <!-- /.item -->
-                <div class="item col-md-6 col-lg-3">
-                  <figure class="rounded"><img src="assets/img/photos/i2.jpg" srcset="assets/img/photos/i2%402x.jpg 2x" alt=""></figure>
-                </div>
-                <!-- /.item -->
-                <div class="item col-md-6 col-lg-3">
-                  <figure class="rounded"><img src="assets/img/photos/i3.jpg" srcset="assets/img/photos/i3%402x.jpg 2x" alt=""></figure>
-                </div>
-                <!-- /.item -->
-                <div class="item col-md-6 col-lg-3">
-                  <figure class="rounded"><img src="assets/img/photos/i4.jpg" srcset="assets/img/photos/i4%402x.jpg 2x" alt=""></figure>
-                </div>
-                <!-- /.item -->
-              </div>
-              <!-- /.row -->
-            </div>
-            <!-- /.grid -->
-            <p class="mb-0 text-center">© 2022 Deshika Photography. All rights reserved.</p>
-          </div>
-          <!--/.card-body -->
-        </div>
-        <!--/.card -->
-      </div>
-      <!--/.container -->
-    </section>
-    <div class="swiper-container swiper-bg" data-effect="fade" data-margin="0" data-autoplay="true" data-autoplaytime="7000">
-      <div class="swiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide"><img src="assets/img/photos/bg1.jpg" alt=""></div>
-          <div class="swiper-slide"><img src="assets/img/photos/bg2.jpg" alt=""></div>
-          <div class="swiper-slide"><img src="assets/img/photos/bg3.jpg" alt=""></div>
-          <div class="swiper-slide"><img src="assets/img/photos/bg4.jpg" alt=""></div>
-        </div>
-        <!--/.swiper-wrapper -->
-      </div>
-      <!-- /.swiper -->
     </div>
-    <!-- /.swiper-container -->
-  </div>
-  <!-- /.content-wrapper -->
-  <script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/plugins.js"></script>
-  <script src="assets/js/theme.js"></script>
+    <!-- Progress-wrapp scroll-button -->
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewbox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
+        </svg>
+    </div>
+    <!-- Menu -->
+    <nav class="dorothea-menu" id="ann-navbar-spy">
+        <div class="dorothea-menu-inner" id="ann-navbar">
+            <ul class="list-unstyled">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">My Works</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Portfolio</a></li>
+                <li><a href="#footer">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Header -->
+    <header class="dorothea-header">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Logo -->
+                <div class="col-6 col-md-6 dorothea-logo-wrap">
+                    <a href="index.html" class="dorothea-logo"><img src="images/logo.png" alt=""></a>
+                </div>
+                <!-- Menu Burger -->
+                <div class="col-6 col-md-6 text-right dorothea-menu-burger-wrap"> <a href="#" class="dorothea-nav-toggle ann-js-dorothea-nav-toggle"><i></i></a> </div>
+            </div>
+        </div>
+    </header>
+    <!-- Slider & Home -->
+    <div id="home">
+        <div class="dorothea-hero js-fullheight">
+            <div class="flexslider js-fullheight">
+                <ul class="slides">
+                    <li class="bg-fixed" style="background-image: url(images/slider/01.jpg);">
+                        <div class="overlay"></div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12 js-fullheight slider-text">
+                                    <div class="slider-text-inner">
+                                        <div class="mx-auto frame-inner">
+                                            <h2>Deshika</h2>
+                                            <h6>Photography</h6> <span class="frame-1"></span> <span class="frame-2"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="bg-fixed" style="background-image: url(images/slider/02.jpg);">
+                        <div class="overlay"></div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12 js-fullheight slider-text">
+                                    <div class="slider-text-inner">
+                                        <div class="mx-auto frame-inner">
+                                            <h2>Deshika</h2>
+                                            <h6>Photography</h6> <span class="frame-1"></span> <span class="frame-2"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="bottom-fade"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="number"><a href="tel:+16504440000" target="_blank"><span>+(94) 78 670 6100</span></a> </div>
+                        <div class="arrow bounce text-center">
+                            <a href="#services" class=""> <i class="ti-angle-double-down"></i> </a>
+                        </div>
+                        <div class="right-bottom-text"><span>Deshika Jayantha / Photographer</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services -->
+    <div id="services" class="section-padding services">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center"> <span class="dorothea-heading-meta animate-box" data-animate-effect="fadeInUp">What I Do</span>
+                    <h2 class="dorothea-heading animate-box" data-animate-effect="fadeInUp">My Works</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 mtop-60 animate-box" data-animate-effect="fadeInUp">
+                    <div class="item">
+                        <div class="position-re o-hidden"> <img src="images/services/1.jpg" alt=""> </div>
+                        <div class="con"> <i class="ti-more"></i>
+                            <h5><a href="services-post.html">Event Photography</a></h5>
+                            <div class="line"></div> <a href="event.html"><i class="ti-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 animate-box" data-animate-effect="fadeInUp">
+                    <div class="item">
+                        <div class="position-re o-hidden"> <img src="images/services/2.jpg" alt=""> </div>
+                        <div class="con"> <i class="ti-more"></i>
+                            <h5><a href="services-post.html">Landscape Photography</a></h5>
+                            <div class="line"></div> <a href="landscape.html"><i class="ti-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mtop-60 animate-box" data-animate-effect="fadeInUp">
+                    <div class="item">
+                        <div class="position-re o-hidden"> <img src="images/services/3.jpg" alt=""> </div>
+                        <div class="con"> <i class="ti-more"></i>
+                            <h5><a href="services-post.html">Baby Photography</a></h5>
+                            <div class="line"></div> <a href="baby.html"><i class="ti-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 animate-box" data-animate-effect="fadeInUp">
+                    <div class="item">
+                        <div class="position-re o-hidden"> <img src="images/services/5.jpg" alt=""> </div>
+                        <div class="con"> <i class="ti-more"></i>
+                            <h5><a href="services-post.html">Street Photography</a></h5>
+                            <div class="line"></div> <a href="street.html"><i class="ti-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About -->
+    <div id="about" class="about-banner-section about">
+        <div class="background-image" style="background: url('images/banner.jpg') center center; background-size: cover;"></div>
+        <div class="bottom-fade"></div>
+        <div class="wrap-text"> <span class="heading-meta">Photographer</span>
+            <h2>Deshika Jayantha</h2>
+            <p>I'm Deshika, a Nature and Landscape photographer. My passion is taking photos of the most stunning places around the world.</p> <img class="signature" src="images/sign-gray.png" alt="">
+        </div>
+    </div>
+    <!-- Photo Gallery -->
+    <div id="gallery" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center"> <span class="dorothea-heading-meta">Portfolio</span>
+                    <h2 class="dorothea-heading">Photo Gallery</h2>
+                </div>
+            </div>
+            <div class="row dorothea-photos">
+                <div class="col-12 col-md-4">
+                    <a class="d-block dorothea-photo-item" data-fancybox="images" data-caption="Photography" href="images/gallery/1.jpg"> <img class="img-fluid" src="images/gallery/1.jpg" alt=""> </a>
+                    <a class="d-block dorothea-photo-item" data-fancybox="images" data-caption="Photography" href="images/gallery/6.jpg"> <img class="img-fluid" src="images/gallery/6.jpg" alt=""> </a>
+                </div>
+                <div class="col-12 col-md-4">
+                    <a class="d-block dorothea-photo-item" data-fancybox="images" data-caption="Photography" href="images/gallery/3.jpg"> <img class="img-fluid" src="images/gallery/3.jpg" alt=""> </a>
+                    <a class="d-block dorothea-photo-item" data-fancybox="images" data-caption="Photography" href="images/gallery/5.jpg"> <img class="img-fluid" src="images/gallery/5.jpg" alt=""> </a>
+                    <a class="d-block dorothea-photo-item" data-fancybox="images" data-caption="Photography" href="images/gallery/7.jpg"> <img class="img-fluid" src="images/gallery/7.jpg" alt=""> </a>
+                </div>
+                <div class="col-12 col-md-4">
+                    <a class="d-block dorothea-photo-item" data-fancybox="images" data-caption="Photography" href="images/gallery/4.jpg"> <img class="img-fluid" src="images/gallery/4.jpg" alt=""> </a>
+                    <a class="d-block dorothea-photo-item" data-fancybox="images" data-caption="Photography" href="images/gallery/2.jpg"> <img class="img-fluid" src="images/gallery/2.jpg" alt=""> </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Video Gallery -->
+    <div class="section-padding dorothea-gallery">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center"> <span class="dorothea-heading-meta animate-box" data-animate-effect="fadeInUp">Portfolio</span>
+                    <h2 class="dorothea-heading animate-box" data-animate-effect="fadeInUp">Video Gallery</h2>
+                </div>
+            </div>
+            <div class="row align-items-stretch dorothea-photos mb-30">
+                <div class="col-12">
+                    <!-- IMPORTANT: Some functionality (ajax, iframes, etc) will not work when you're opening local file directly on your browser, the code must be running on a web server. SOURCE: https://fancyapps.com/fancybox/3/docs/ -->
+                    <div class="row align-items-stretch">
+                        <!-- YouTube Popup -->
+                        <div class="col-md-4 animate-box fadeInUp animated" data-animate-effect="fadeInUp">
+                            <a data-fancybox="" href="https://www.youtube.com/watch?v=ybso7mzV2hY"> <img class="img-fluid" src="images/gallery/20.jpg" alt="">
+                                <p><i class="ti-control-play"></i></p>
+                            </a>
+                            <h6>Youtube Video (Popup)</h6>
+                        </div>
+                        <!-- Vimeo Popup -->
+                        <div class="col-md-4 animate-box fadeInUp animated" data-animate-effect="fadeInUp">
+                            <a data-fancybox="" href="https://www.youtube.com/watch?v=ybso7mzV2hY"> <img class="img-fluid" src="images/gallery/20.jpg" alt="">
+                                <p><i class="ti-control-play"></i></p>
+                            </a>
+                            <h6>Youtube Video (Popup)</h6>
+                        </div>
+                        <!-- Custom Video Popup -->
+                        <div class="col-md-4 animate-box fadeInUp animated" data-animate-effect="fadeInUp">
+                            <a data-fancybox="" href="https://www.youtube.com/watch?v=ybso7mzV2hY"> <img class="img-fluid" src="images/gallery/20.jpg" alt="">
+                                <p><i class="ti-control-play"></i></p>
+                            </a>
+                            <h6>Youtube Video (Popup)</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div id="footer" class="section-banner background-image" style="background: url('images/banner.jpg') center center; background-size: cover;">
+        <div class="top-fade"></div>
+        <div class="left-fade"></div>
+        <div class="wrap-text"> <i class="ti-more"></i>
+            <p><a href="mailto:deshikajayantha@gmail.com" class="mail">deshikajayantha@gmail.com</a></p>
+            <p><a href="tel:+94786706100" class="phone">+94 78 670 6100</a></p>
+            <ul class="social-network">
+                <li><a href="#"><i class="ti-facebook"></i></a></li>
+                <li><a href="#"><i class="ti-twitter"></i></a></li>
+                <li><a href="#"><i class="ti-instagram"></i></a></li>
+                <li><a href="#"><i class="ti-youtube"></i></a></li>
+            </ul>
+            <div><img src="images/logo.png" class="logo-row" alt=""></div>
+            <div class="credits-row">
+                <ul>
+                    <li>© 2022 Deshika Photography</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+    <script src="js/sticky-kit.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/smooth-scroll.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
-
 </html>
